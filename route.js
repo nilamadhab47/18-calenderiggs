@@ -7,11 +7,11 @@ const eventModel =require("./models/eventSchema")
 
 /////////CREATE//////////
 
-router.post('/api/createEvent' , eventController.createEvent) 
-router.post('/api/createBanner' , bannerController.createBanner)
+router.post('/api/createEvents' , eventController.createEvent) 
+router.post('/api/createBanners' , bannerController.createBanner)
 
 ////////GET//////////// 
-router.get("/api/getBanner/:id", async (req, res) => {
+router.get("/api/getBanners/:id", async (req, res) => {
 	try {
 		const getBanner = await bannerModel.findOne({ _id: req.params.id })
 	res.send(getBanner)
@@ -20,7 +20,7 @@ router.get("/api/getBanner/:id", async (req, res) => {
 		res.send({ error: "event doesn't exist!" })
 	}
 })
-router.get("/api/getEvent/:id", async (req, res) => {
+router.get("/api/getEvents/:id", async (req, res) => {
 	try {
 		const getEvent = await eventModel.findOne({ _id: req.params.id })
 	res.send(getEvent)
@@ -29,20 +29,20 @@ router.get("/api/getEvent/:id", async (req, res) => {
 		res.send({ error: "event doesn't exist!" })
 	}
 })
-router.get('/api/getAllEvent', eventController.getAllEvents)
-router.get('/api/getAllBanner', bannerController.getAllBanners)
+router.get('/api/getAllEvents', eventController.getAllEvents)
+router.get('/api/getAllBanners', bannerController.getAllBanners)
 
 
 ////////DELETE//////////
 
-router.delete('/api/deleteEvent/:id', eventController.deleteEvent)
-router.delete('/api/deleteBanner/:id', bannerController.deleteBanner)
+router.delete('/api/deleteEvents/:id', eventController.deleteEvent)
+router.delete('/api/deleteBanners/:id', bannerController.deleteBanner)
 
 
 /////////UPDATE///////////////
 
-router.put('/api/updateEvent/:id', eventController.updateEvent)
-router.put('/api/updateBanner/:id', bannerController.updateBanner)
+router.put('/api/updateEvents/:id', eventController.updateEvent)
+router.put('/api/updateBanners/:id', bannerController.updateBanner)
 
 
 

@@ -16,7 +16,7 @@ function SliderHeader() {
   const [user, setUser] = useState([]);
   
   const fetchData = async () => {
-    const response = await fetch("/getAllBanner");
+    const response = await fetch("/api/getAllBanners");
     const data = await response.json();
     console.log(data.bannerData);
     setUser(data.bannerData);

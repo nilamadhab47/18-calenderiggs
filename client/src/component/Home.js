@@ -17,7 +17,7 @@ import Footer from "./Footer";
 const Home = () => {
   const [item,setItem]= useState([])
   useEffect(() => {
-   fetch("/api/getAllEvent").then((result)=>{
+   fetch("/api/getAllEvents").then((result)=>{
     result.json().then((resp)=>{
       setItem(resp.eventData)
       console.log(resp.eventData)

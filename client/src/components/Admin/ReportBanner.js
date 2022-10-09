@@ -21,7 +21,7 @@ export default function ReportBanner() {
   const [user, setUser] = useState([]);
   
   const fetchData = async () => {
-    const response = await fetch("/api/getAllBanner");
+    const response = await fetch("/api/getAllBanners");
     const data = await response.json();
     console.log(data.bannerData);
     setUser(data.bannerData);
@@ -30,7 +30,7 @@ export default function ReportBanner() {
     fetchData()
   },[])
   function deleteBanner(_id){
-    fetch(`/api/deleteBanner/${_id}`,{
+    fetch(`/api/deleteBanners/${_id}`,{
       method:"DELETE",
     }).then((result)=>{
     result.json().then((resp)=>{
