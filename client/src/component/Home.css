@@ -1,0 +1,397 @@
+.f-cont {
+  background-image: url("../images/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: -1px;
+  padding: 6rem 5rem;
+  width: 118%;
+  position: relative;
+  right: 7.6rem;
+  font-family: "Alike";
+}
+.f-cont h2 {
+  font-family: "Alike";
+  color: rgb(238, 231, 231);
+}
+.s-cont {
+  padding: 2rem;
+  border-radius: 5px;
+  user-select: auto;
+  background: #e7dfdf50;
+  /* opacity: 0.2; */
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.t-cont {
+  padding: 4rem;
+  border: 3px solid;
+  user-select: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.t-cont button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: transparent;
+  color: #fea901;
+  border: 1px solid #ffffff;
+}
+.t-cont h5 {
+  color: rgb(238, 231, 231);
+  margin-top: 3rem;
+}
+.t-cont h4 {
+  color: rgb(238, 231, 231);
+  font-family: "Alike";
+}
+h2 {
+  user-select: auto;
+  color: antiquewhite;
+  font-family: "Alike";
+  font-style: normal;
+  font-weight: 400;
+
+  color: #981e1e;
+  z-index: 1;
+}
+
+.wts-on {
+  margin-top: 5rem;
+  font-size: 1rem;
+  margin-bottom: 14rem;
+}
+
+.wts-on > p {
+  font-size: 2rem;
+}
+
+.card-img-top {
+  width: 20rem;
+  height: 28rem;
+}
+
+.background-color-home {
+  background: rgba(0, 56, 49, 1);
+  border: 1px solid grey;
+  width: 100;
+  width: 20rem;
+
+  border-bottom-right-radius: 50px;
+  color: #fff;
+}
+.background-color-home h5 {
+  color: white;
+}
+.card-body h5 {
+  font-family: "Roboto";
+  font-size: 22px;
+}
+
+.card-title {
+  font-size: 1.7rem;
+  text-align: left;
+  line-height: 25px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.card-text {
+  font-size: 14px;
+  text-align: left;
+  line-height: 16px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.text-1 {
+  font-size: 13px;
+  text-align: left;
+  padding-top: 0px;
+  margin-left: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.text-2 {
+  font-size: 14px;
+  float: left;
+  padding-top: 0px;
+  margin-left: 1rem;
+  font-weight: 400;
+  margin-right: 43px;
+}
+.text-2-a {
+  font-size: 14px;
+  padding-top: 0px;
+  margin-left: 1rem;
+  font-weight: 400;
+}
+.date {
+  font-size: 16px;
+  text-align: left;
+  line-height: 16px;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.button {
+  display: inline-block;
+  margin-left: 7rem;
+  background: rgba(251, 208, 122, 1);
+  border-color: none;
+  margin-bottom: 2rem;
+  color: black;
+  border: none;
+  border-color: currentColor;
+  margin-left: 200px;
+}
+
+.images-events {
+  user-select: auto;
+  width: 429.81px;
+  height: 468.02px;
+  opacity: 0.6;
+}
+@media screen and (min-width: 359px) and (max-width: 480px) {
+  .s-cont {
+    padding: 1rem;
+    border-radius: 5px;
+    -webkit-user-select: auto;
+    user-select: auto;
+    background: #e7dfdf50;
+    /* opacity: 0.2; */
+    z-index: -1;
+    width: 20rem;
+    border-radius: 10px;
+    margin-left: -5px;
+  }
+  .f-cont h2 {
+    font-family: "Alike";
+    color: rgb(238, 231, 231);
+    font-size: 18px;
+  }
+  .t-cont h4 {
+    color: rgb(238, 231, 231);
+    font-family: "Alike";
+    font-size: 15px;
+  }
+  .t-cont h5 {
+    color: rgb(238, 231, 231);
+    margin-top: 3rem;
+    font-size: 14px;
+}
+  .f-cont {
+    margin-top: 1rem;
+    background-image: url("../images/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 26px;
+    padding:5rem 5rem;
+    width: 124.4%;
+    position: relative;
+    right: 6.9rem;
+    font-family: "Alike";
+    margin-top: 0rem;
+  }
+  .t-cont {
+    padding: 0rem;
+    border: none;
+    -webkit-user-select: auto;
+    user-select: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 2rem; */
+  }
+  .Link .HideView {
+    display: none;
+  }
+  .wtsView {
+    display: none;
+  }
+  .allFrontImage.row.row-cols-1.row-cols-md-3.g-4 {
+    margin: 1rem;
+  }
+  .DownImageLink a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 6rem;
+    text-decoration: none;
+    color: Black;
+    margin-top: 5px;
+    margin-left: 8rem;
+}
+.images-events {
+  -webkit-user-select: auto;
+  user-select: auto;
+  width: 316.81px;
+  height: 384.02px;
+  opacity: 0.6;
+  margin-left: 1rem;
+}
+  .images .imageFirst {
+    display: none;
+  }
+  .images .imageThird {
+    display: none;
+  }
+  .wts-on {
+    margin-top: 0rem;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+}
+@media screen and (min-width:360px) and (max-width:384px) {
+  .f-cont {
+    margin-top: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 26px;
+    padding: 5rem 5rem;
+    width: 126.9%;
+    position: relative;
+    right: 6.9rem;
+    font-family: "Alike";
+    margin-top: 0rem;
+    background-image: url("../images/image.png");
+}
+}
+@media screen and (min-width:384px) and (max-width:414px) {
+  .f-cont {
+    margin-top: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 26px;
+    padding: 5rem 5rem;
+    width: 126.9%;
+    position: relative;
+    right: 6.9rem;
+    font-family: "Alike";
+    margin-top: 0rem;
+    background-image: url("../images/image.png");
+}
+}
+@media screen and (min-width:414px) and (max-width:480px) {
+  .f-cont {
+    margin-top: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 26px;
+    padding: 5rem 5rem;
+    width: 123.9%;
+    position: relative;
+    right: 6.9rem;
+    font-family: "Alike";
+    margin-top: 0rem;
+    background-image: url("../images/image.png");
+}
+  
+}
+@media screen and (min-width:414px) and (max-width:480px) {
+  .f-cont {
+    margin-top: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 26px;
+    padding: 5rem 5rem;
+    width: 123.9%;
+    position: relative;
+    right: 6.9rem;
+    font-family: "Alike";
+    margin-top: 0rem;
+    background-image: url("../images/image.png");
+}
+  
+}
+@media screen and (min-width: 480px) and (max-width: 576px) {
+  .Link .HideView {
+    display: none;
+  }
+  .wtsView {
+    display: none;
+  }
+  .images .imageFirst {
+    display: none;
+  }
+  .images .imageThird {
+    display: none;
+  }
+  .DownImageLink a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 6rem;
+    text-decoration: none;
+    color: Black;
+    margin-top: 5px;
+    margin-left: 6rem;
+  }
+  .allFrontImage.row.row-cols-1.row-cols-md-3.g-4{
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+  .f-cont {
+    background-image: url("../images/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -1px;
+    padding: 6rem 5rem;
+    width: 124%;
+    position: relative;
+    right: 6.9rem;
+    font-family: "Alike";
+    
+}
+.s-cont {
+    padding: 0rem;
+    border-radius: 5px;
+    -webkit-user-select: auto;
+    user-select: auto;
+    background: #e7dfdf50;
+    /* opacity: 0.2; */
+    z-index: -1;
+    border-radius: 10px;
+}
+.f-cont h2 {
+    font-family: "Alike";
+    color: rgb(238, 231, 231);
+    font-size: 26px;
+}
+.t-cont {
+    border: none;
+    padding: 2rem;
+    -webkit-user-select: auto;
+    user-select: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images{
+    margin-left: 2rem;
+}
+.downimagelink{
+    margin-left: 5rem;
+}
+.wts-on {
+  margin-top: 0rem;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+}
+}
+@media screen and (min-width:576px) and (max-width:2500px) {
+  .downimagelink{
+   display: none;
+}
+.DownImageLink {
+  display: none;
+}
+
+}
