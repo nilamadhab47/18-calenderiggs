@@ -8,7 +8,7 @@ export default function Image() {
         const formData = new FormData();
         formData.append("file", data.file[0]);
 
-        const res = await fetch("/createBanner", {
+        const res = await fetch("/api/createBanner", {
             method: "POST",
             body: formData,
         }).then((res) => res.json());

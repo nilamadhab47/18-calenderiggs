@@ -19,7 +19,7 @@ export default function ReportsAboutEvent() {
   const [datas,setDatas] =useState([])
 
   const fetchData = async () => {
-    const response = await fetch("/getAllEvent");
+    const response = await fetch("/api/getAllEvent");
     const data = await response.json();
     console.log(data.eventData);
     setDatas(data.eventData);
@@ -32,7 +32,7 @@ export default function ReportsAboutEvent() {
   
  
   function deleteEvent(_id){
-    fetch(`/deleteEvent/${_id}`,{
+    fetch(`/api/deleteEvent/${_id}`,{
       method:"DELETE",
     }).then((result)=>{
     result.json().then((resp)=>{

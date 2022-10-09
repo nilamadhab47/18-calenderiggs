@@ -63,7 +63,7 @@ console.log(selectedFile)
     try{
       const response = await axios({
         method:"post",
-        url:'/createBanner',
+        url:'/api/createBanner',
         data: formData,
         headers:{ "Content-Type":"multipart/form-data"},
          

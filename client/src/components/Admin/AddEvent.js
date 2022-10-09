@@ -130,7 +130,7 @@ export default function AddEvent() {
     try {
       const response = await axios({
         method: "post",
-        url: "/createEvent",
+        url: "/api/createEvent",
         data: formData,
         headers: { "Content-Type": "multipart/form-data" },
       });
