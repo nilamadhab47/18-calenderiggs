@@ -22,7 +22,7 @@ mongoose
   .then(() => console.log("MongoDb is connected"))
   .catch((err) => console.log(err));
 
-app.use("/", route);
+// app.use("/", route);
 
 if (process.env.NODE_ENV === `production` || process.env.NODE_ENV === `staging`) {
     app.use(express.static("client/build"));
